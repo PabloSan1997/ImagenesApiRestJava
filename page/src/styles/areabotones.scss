@@ -1,0 +1,25 @@
+
+
+.contenedor_botones{
+    width: 80%;
+    margin: 0 auto 2rem auto;
+    display: grid;
+    gap:2rem;
+    grid-template-columns: repeat(4 , 1fr);
+    button{
+        padding: 0.3rem 0;
+        font-size: 2rem;
+        cursor: pointer;
+        background: rgb(3, 1, 32);
+        border: none;
+        color: white;
+        border: outset 3px rgb(125, 125, 235);
+        border-radius: 0.5rem;
+        &:hover{
+            background: rgb(5, 5, 94);
+        }
+        &:active{
+            border-style: inset;
+        }
+    }
+}

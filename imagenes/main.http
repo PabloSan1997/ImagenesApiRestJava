@@ -1,0 +1,14 @@
+GET http://localhost:8080/api/image
+###
+
+POST http://localhost:8080/api/image
+Content-Type: application/json
+
+{
+    "name":"Torre effiel",
+    "url":"https://d38b044pevnwc9.cloudfront.net/cutout-nuxt/enhancer/2.jpg"
+}
+
+###
+DELETE  http://localhost:8080/api/image/d87583e9-9cc6-424e-9e07-96d3d0fb7915
+###

@@ -1,0 +1,40 @@
+
+.formulario{
+    h2{
+        color: white;
+        margin:1rem auto;
+    }
+    background: rgb(3, 1, 32);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 30rem;
+    left:0;
+    transition: left 0.5s ease;
+    &.esconder{
+        left: -30rem;
+    }
+    label{
+        margin: auto 0.8rem 0.3rem 0.8rem;
+        color: white;
+    }
+    input{
+        margin: auto 0.8rem 1rem 0.8rem;
+        font-size: 1.2rem;
+        border: none;
+        background: rgb(232, 232, 243);
+        padding: 0.2rem,;
+    }
+    .boton{
+        margin: auto;
+        padding: 0.2rem 1rem;
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+        background: rgb(5, 5, 77);
+        border: rgb(21, 21, 92) solid 2px;
+        color: white;
+        &:hover{
+            background: rgb(21, 21, 92);
+        }
+    }
+}
